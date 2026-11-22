@@ -56,7 +56,7 @@ The plugin adds three actions to KOReader: **Music: play/pause**, **Music: next 
 ## Known limitations
 
 - The playlist only includes audio files in the **same folder** as the song you tapped, not subfolders.
-- No software volume control (use the Kindle's volume buttons).
+- No volume control inside KOReader only in the Kindle Book UI.
 - Use KOReader's **Classic** file browser display mode. The cover/mosaic modes try to read audio files as books.
 - It does not remember the last track or position between KOReader restarts.
 - Audio is played with `-ao alsa`. If your mplayer build uses a different audio driver, it will not produce sound.
