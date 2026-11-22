@@ -88,6 +88,6 @@ Bug reports and fixes are welcome.
 
 ## License
 
-[MIT](LICENSE). Do whatever you like with it.
+[MIT](LICENSE).
 
 mplayer is a separate program under its own license and is not part of this project.
