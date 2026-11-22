@@ -1,6 +1,6 @@
 # musicplayer.koplugin
 
-Play music with [mplayer](https://www.mobileread.com/forums/attachment.php?s=5e65e3c224a8800105dabb8d70c08774&attachmentid=66277&d=1297101459) from inside [KOReader](https://github.com/koreader/koreader). Made for the **Kindle Keyboard (K3)**.
+Play music with [mplayer]([https://www.mobileread.com/forums/attachment.php?s=5e65e3c224a8800105dabb8d70c08774&attachmentid=66277&d=1297101459](https://www.mobileread.com/forums/showthread.php?t=119851)) from inside [KOReader](https://github.com/koreader/koreader). Made for the **Kindle Keyboard (K3)**.
 
 Tap a song in KOReader's normal file browser and it plays. Every audio file in that folder becomes the playlist, and it moves to the next song on its own. Music keeps playing while you read.
 
