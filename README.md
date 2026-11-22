@@ -28,11 +28,14 @@ Recognised formats: `mp3 ogg flac wav aac m4a opus wma ape mka` (what actually p
 
 ## Installation
 
-1. Download the latest zip from the [Releases](../../releases) page, or clone this repo.
-2. Copy the `musicplayer.koplugin` folder into KOReader's plugins folder, usually `/mnt/us/koreader/plugins/`.
-3. Put mplayer somewhere on the Kindle, for example `/mnt/us/mplayer`.
-4. Restart KOReader.
+1. At the top of this page, click the green **Code** button, then **Download ZIP**.
+2. Unzip it. You'll get a folder named `musicplayer.koplugin-main`.
+3. **Rename that folder to `musicplayer.koplugin`** (remove the `-main`). KOReader won't load the plugin if the name is wrong.
+4. Connect your Kindle by USB and copy the `musicplayer.koplugin` folder into KOReader's plugins folder, usually `koreader/plugins/` on the Kindle's drive.
+5. Put [mplayer](https://www.mobileread.com/forums/attachment.php?s=5e65e3c224a8800105dabb8d70c08774&attachmentid=66277&d=1297101459) somewhere on the Kindle, for example `/mnt/us/mplayer`. (It isn't included in this download.)
+6. Eject the Kindle and restart KOReader.
 
+Inside the plugin folder you should see `main.lua` and `_meta.lua`. If those files are sitting inside another folder, you have an extra level of nesting. Move the inner folder up so the path is `koreader/plugins/musicplayer.koplugin/main.lua`.
 ## Usage
 
 1. Open a folder containing music in the KOReader file browser.
