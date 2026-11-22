@@ -82,7 +82,6 @@ What that means in practice:
 
 - The first versions did not work on a real device. The current version was rewritten after checking KOReader's source code, and it works on my K3.
 - Claude also ran its own tests, but only against a stand-in for KOReader and a fake mplayer, not on a real Kindle. Real-world results from other devices, KOReader versions, and mplayer builds are not guaranteed.
-- Please read the code before trusting it with anything important. It is a single file, `main.lua`, and it runs shell commands to start and stop mplayer.
 
 Bug reports and fixes are welcome.
 
